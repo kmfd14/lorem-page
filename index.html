@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+  <title>Lorem Ipsum</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script defer src="app.js"></script>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
 
       <div class="logo-container">   
         <img src="./assets/img/klogo.png" alt="logo">
-        <span class="logo-text">Logo</span>
+        <h1><span>Lorem Ipsum</span> by KMFD</h1>
       </div>
       
         <ul>
@@ -45,59 +47,83 @@
 </header>
 
   <main class="main">
-    <section class="home section" id="home">
-      <div class="home-container container grid">
+    <section class="home" id="home">
+      <div class="home-container">
         <div class="home-content">
           <h2>
-            Lorem <br>
-            <span>Lorem Ipsum</span>
+            What is <br>
+            <span>Lorem Ipsum?</span>
           </h2>
           
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
 
-          <a href="https://www.lipsum.com/" class="button-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          <a href="https://www.lipsum.com/" class="button-link" target=”_blank”>Learn More</a>
         </div>
         <div class="image-box">
-          <img src="./assets/img/lorem.jpg" alt="lorem">
+          <img src="./assets/img/book.png" alt="lorem">
         </div>
       </div>
     </section>
 
-    <section class="about section" id="about">
-      <div class="about-container container grid">
-        <div class="about-data">
-          <h1 class="about-title">
-            Lorem Ipsum
-          </h1>
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-content">
+          <div class="about-title">
+            <img src="./assets/img/software-engineer-icon.svg" alt="software-engineering" width="150" hieght="250">
+            <h2>
+              Lorem Ipsum<br>
+              <span>on <i>Software Engineering</i></span>
+            </h2>
+          </div>
           
           <p class="about-description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <i>"In the context of software engineering, Lorem Ipsum is not directly related to the field itself. It is primarily associated with design and typesetting. However, in software development, there are similar placeholder texts or "dummy data" used to simulate real data when testing or prototyping software applications.<br><br>
+
+            In software engineering, developers often use placeholder text or data to fill in fields or sections of a user interface or database during the development process. This allows them to focus on the functionality and behavior of the software without worrying about the actual content.<br><br>
+
+            Placeholder data in software engineering might include generic names, email addresses, dates, or even randomly generated values that mimic the structure and format of real data. This approach helps developers test various scenarios and ensure that the software functions correctly with different types of data inputs.<br><br>
+
+            While Lorem Ipsum itself may not be directly applicable to software engineering, the concept of using placeholder data is prevalent in the field, allowing developers to iterate on and refine their software before integrating real data sources or content."<br><br>
+
+            <span>by ChatGPT <img src="./assets/img/chatgpt.svg" alt="chatgpt" width="45" hieght="45"></span></i>
           </p>
 
-          <a href="https://www.lipsum.com/" class="button-link">Learn More <i class="bi bi-arrow-right"></i></a>
-
+          <a href="https://www.lipsum.com/" class="button-link" target=”_blank”>Ask ChatGPT Here </a>
         </div>
+
       </div>
     </section>
 
-    <section class="contact section" id="contact">
+    <section class="contact" id="contact">
       <div class="contact-container">
-        <div class="contact-data">
-          <h1 class="contact-title">
-            Contact
-          </h1>
+        <div class="contact-content">
+          <h2>
+            Contact Me
+          </h2>
 
-          <ul class="contact-description">
-            <li><a href="https://t.me/kmfd14"><i class="bi bi-telegram"></i> Telegram</a></li>
-            <li><a href="messenger.com/t/kmfd14"><i class="bi bi-messenger"></i> Facebook Messenger</a></li>
-          </ul>
+          <p>
+            Contact the <span>developer</span> of this website.
+          </p>
+
+          <div class="contact-logos">
+            <div>
+              <a href="https://t.me/kmfd14" target=”_blank”><img src="./assets/img/telegram.svg" alt="telegram" class="logo">
+                <b>Telegram</b></a>
+              </div>
+            <div>
+              <a href="https://messenger.com/t/kmfd14" target=”_blank”><img src="./assets/img/messenger.svg" alt="messenger  class="logo">
+                <b>Facebook Messenger</b></a>
+              </div>
+            <div><a href="https://mail.google.com/mail/?view=cm&fs=1&to=kmfd14@gmail.com" target=”_blank”><img src="./assets/img/gmail.svg" alt="gmail"  class="logo">
+              <b>Gmail</b></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
-
   <footer>
     <small>&copy; Copyright 2023, KMFD</small>
   </footer>
